@@ -1,0 +1,13 @@
+{
+  "name": "loopstation-worship",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Loop station for live worship: African percussion, recording, stem separation client",
+  "scripts": {
+    "setup": "npm install @capacitor/core @capacitor/android @capacitor/filesystem && npm install -D @capacitor/cli",
+    "serve": "npx serve www",
+    "android:add": "npx cap add android && python3 scripts/patch_manifest.py && npx cap sync android",
+    "android:sync": "npx cap sync android",
+    "android:open": "npx cap open android"
+  }
+}

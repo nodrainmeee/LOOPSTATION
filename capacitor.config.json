@@ -1,0 +1,12 @@
+{
+  "appId": "com.worship.loopstation",
+  "appName": "LoopStation Worship",
+  "webDir": "www",
+  "server": {
+    "androidScheme": "https",
+    "cleartext": true
+  },
+  "android": {
+    "allowMixedContent": true
+  }
+}
